@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #101010;
+  color: var(--text-sharp);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: var(--max-width);
+  padding-inline: 2.58rem;
+  padding-top: 1.26rem;
+  padding-bottom: 1.2rem;
+}
+.rider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 400;
+}
+.rider h4 {
+  padding-right: 1.5rem;
+  font-size: 400;
+}
+.rider img {
+  width: 2.64rem;
+  height: 2.64rem;
+  border-radius: 50%;
+}
+.main-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 2.58rem;
+  padding-top: 1.74rem;
+  padding-bottom: 1.8rem;
+}
+.title {
+  display: flex;
+}
+
+.title li {
+  list-style: none;
+  color: var(--text-dull);
+  display: flex;
+  justify-content: left;
+  line-height: 1.32;
+  margin-right: 2.64rem;
+}
+.title li a {
+  position: relative;
+  text-decoration: none;
+  color: var(--text-dull);
+  font-size: 16px;
+  font-weight: 400;
+}
+.title li a::after {
+  content: "";
+  position: absolute;
+  text-decoration: none;
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  color: var(--text-sharp);
+  background-color: var(--text-sharp);
+}
+.title li a:hover {
+  color: var(--text-sharp);
+}
+.title li a:hover::after {
+  width: 100%;
+}
+.dropdown {
+  color: var(--text-sharp);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dropdown h4 {
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 8px;
+}
+.filter {
+  color: var(--text-sharp);
+}
+
+.rider-details {
+  width: 76.8rem;
+  height: 11.88rem;
+  background-color: var(--bg-details);
+  margin-left: 2.58rem;
+  margin-right: 2.58rem;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 30% 50% 20%;
+}
+.rider-details img {
+  width: 17.76rem;
+  height: 8.8rem;
+  padding-right: 2.64rem;
+  padding-left: 1.74rem;
+  padding-top: 1.32rem;
+  padding-bottom: 1.68rem;
+}
+
+.ride-info {
+  padding-top: 1.32rem;
+  padding-bottom: 1.68rem;
+}
+.ride-info h4 {
+  color: var(--text-dull);
+  font-weight: 400;
+  padding-bottom: 8px;
+}
+.title-name {
+  display: flex;
+  justify-content: space-between;
+}
+.title-name li {
+  list-style: none;
+  color: var(--text-dull);
+  padding-top: 1.32rem;
+  padding-right: 1.8rem;
+}
